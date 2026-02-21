@@ -27,7 +27,8 @@ The AppHost manages the following services:
 
 ## Prerequisites
 
-- .NET 8.0 SDK
+- .NET Aspire 13.1.1
+- .NET 10.0 SDK
 - Docker Desktop (for running containers)
 - Node.js 22.12.0+ with Yarn 4.7.0 (for frontend)
 - Frontend dependencies installed: Run `yarn install` in the `frontend` directory before starting the AppHost

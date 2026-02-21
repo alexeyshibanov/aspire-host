@@ -101,7 +101,7 @@ public static class ElasticsearchExtensions
             else
             {
                 // Load existing CA cert
-                caCert = new X509Certificate2(caPath);
+                caCert = X509CertificateLoader.LoadCertificateFromFile(caPath);
             }
 
             // Elastic expects the HEX string of the CA's SHA256 hash
